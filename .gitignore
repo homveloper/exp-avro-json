@@ -1,0 +1,61 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+vendor/
+*.log
+
+# Go build cache
+/server/bin/
+/server/dist/
+
+# Unreal Engine
+/client/Binaries
+/client/DerivedDataCache
+/client/Intermediate
+/client/Saved
+/client/.vscode
+/client/.vs
+/client/*.VC.db
+/client/*.opensdf
+/client/*.opendb
+/client/*.sdf
+/client/*.sln
+/client/*.suo
+/client/*.xcodeproj
+/client/*.xcworkspace
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
